@@ -1,0 +1,13 @@
+.coolarooni {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  height: 100vh;
+}
+
+.canvas {
+  width: 100%;
+}
+
+.toolbar {
+  background-color: red;
+}

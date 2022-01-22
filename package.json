@@ -1,0 +1,18 @@
+{
+  "name": "ligma-thing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve index.html -p 8080 --no-autoinstall",
+    "build": "parcel build index.html --public-url . --no-autoinstall",
+    "watch": "parcel watch index.html --no-autoinstall"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.49.0",
+    "typescript": "^4.5.5"
+  }
+}
